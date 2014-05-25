@@ -22,6 +22,7 @@ cask install google-chrome
 cask install iterm2
 cask install kobito
 cask install vagrant
+cask install netbeans
 
 # Remove outdated versions
 cleanup
