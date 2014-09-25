@@ -34,19 +34,25 @@ cask install clamxav
 cask install firefox
 cask install flash
 cask install gas-mask
+cask install github
 cask install google-chrome
 cask install handbrake
+cask install inkscape
 cask install iterm2
 cask install java
-# cask install keyremap4macbook -> Karabiner
+# cask install keyremap4macbook -> renamed to Karabiner
 cask install LibreOffice
-# cask install netbeans -> PHP ver. on the web
+# cask install netbeans -> this install all in one version, and I just want the PHP version, so download from the web page.
 cask install poedit
 cask install skype
 cask install virtualbox
 cask install vagrant
 cask install vlc
 cask install xtrafinder
+cask install Xquartz
+
+# manual install
+# MacVim https://code.google.com/p/macvim-kaoriya/
 
 # Remove outdated versions
 cleanup
