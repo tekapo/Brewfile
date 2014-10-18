@@ -8,6 +8,7 @@ upgrade
 tap homebrew/versions || true
 tap phinze/homebrew-cask || true
 tap homebrew/binary || true
+tap homebrew/apache || true
 
 # Packages
 
@@ -16,7 +17,8 @@ install boot2docker
 install brew-cask
 install encfs
 install git
-install httpd
+install gnupg2
+install httpd24
 install node
 install php55
 install php55-xdebug
@@ -40,7 +42,7 @@ cask install handbrake
 cask install inkscape
 cask install iterm2
 cask install java
-# cask install keyremap4macbook -> renamed to Karabiner
+cask install Karabiner
 cask install LibreOffice
 # cask install netbeans -> this install all in one version, and I just want the PHP version, so download from the web page.
 cask install poedit
